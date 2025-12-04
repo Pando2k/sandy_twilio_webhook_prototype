@@ -1,7 +1,7 @@
 {
   "name": "sandy_twilio_webhook_prototype",
   "version": "1.0.0",
-  "description": "Simple Twilio <Gather> voice webhook using CommonJS",
+  "description": "Twilio + ElevenLabs AI Voice Assistant webhook",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
