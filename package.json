@@ -1,18 +1,15 @@
 {
   "name": "sandy_twilio_webhook_prototype",
-  "version": "1.0.0",
-  "description": "Twilio + ElevenLabs AI Voice Assistant webhook",
+  "version": "1.1.0",
+  "description": "Twilio Media Streams <-> Sesame Realtime bridge",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.4.0",
     "express": "^4.19.2",
-    "body-parser": "^1.20.2",
-    "twilio": "^4.23.0"
+    "twilio": "^4.23.0",
+    "ws": "^8.18.0"
   }
 }
